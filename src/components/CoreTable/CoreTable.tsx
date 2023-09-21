@@ -285,9 +285,9 @@ export default function CoreTable() {
   const [TY2300, setTY2300] = useState<any>('');
 
   useEffect(() => {
-    setFY2300(Number(FY2200) + Number(FY2310) + Number(FY2320) + Number(FY2330) + Number(FY2340) + Number(FY2350));
-    setSY2300(Number(SY2200) + Number(SY2310) + Number(SY2320) + Number(SY2330) + Number(SY2340) + Number(SY2350));
-    setTY2300(Number(TY2200) + Number(TY2310) + Number(TY2320) + Number(TY2330) + Number(TY2340) + Number(TY2350));
+    setFY2300(Number(FY2200) + Number(FY2310) + Number(FY2320) - Number(FY2330) + Number(FY2340) - Number(FY2350));
+    setSY2300(Number(SY2200) + Number(SY2310) + Number(SY2320) - Number(SY2330) + Number(SY2340) - Number(SY2350));
+    setTY2300(Number(TY2200) + Number(TY2310) + Number(TY2320) - Number(TY2330) + Number(TY2340) - Number(TY2350));
   }, [FY2310, FY2320, FY2330, FY2340, FY2350, SY2310, SY2320, SY2330, SY2340, SY2350, TY2310, TY2320, TY2330, TY2340, TY2350, FY2200, SY2200, TY2200]);
 
   const [FY2400, setFY2400] = useState<any>(localStorage.getItem('TY1160') || '');
