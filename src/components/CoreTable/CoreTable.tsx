@@ -1159,37 +1159,37 @@ export default function CoreTable() {
             <StyledTableCell component="th" scope="row">
             Коэф.абсолютной ликвидности
             </StyledTableCell>
-            <StyledTableCell align="left">{'(с1250 + с1240 ) / (c1510 + c1530 + c1540 + c1550)'}</StyledTableCell>
-              <StyledTableCell align="left">{((Number(FY1250) + Number(FY1240)) / (Number(FY1510) + Number(FY1530) + Number(FY1540) + Number(FY1550))).toFixed(2)}</StyledTableCell>
-              <StyledTableCell align="left">{((Number(SY1250) + Number(SY1240)) / (Number(SY1510) + Number(SY1530) + Number(SY1540) + Number(SY1550))).toFixed(2)}</StyledTableCell>
-              <StyledTableCell align="left">{((Number(TY1250) + Number(TY1240)) / (Number(TY1510) + Number(TY1530) + Number(TY1540) + Number(TY1550))).toFixed(2)}</StyledTableCell>
+            <StyledTableCell align="left">{'(с1250 + с1240 ) / (c1510 + c1520 + c1540 + c1550)'}</StyledTableCell>
+              <StyledTableCell align="left">{((Number(FY1250) + Number(FY1240)) / (Number(FY1510) + Number(FY1520) + Number(FY1540) + Number(FY1550))).toFixed(2)}</StyledTableCell>
+              <StyledTableCell align="left">{((Number(SY1250) + Number(SY1240)) / (Number(SY1510) + Number(SY1520) + Number(SY1540) + Number(SY1550))).toFixed(2)}</StyledTableCell>
+              <StyledTableCell align="left">{((Number(TY1250) + Number(TY1240)) / (Number(TY1510) + Number(TY1520) + Number(TY1540) + Number(TY1550))).toFixed(2)}</StyledTableCell>
           </StyledTableRow>
           <StyledTableRow key={'B2'}>
             <StyledTableCell component="th" scope="row">
             Коэф.критической ликвидности
             </StyledTableCell>
-            <StyledTableCell align="left">{'(c1250 + с1240 + c1230 ) / (c1510 + c1530 + c1540 + c1550)'}</StyledTableCell>
-              <StyledTableCell align="left">{((Number(FY1250) + Number(FY1240) + Number(FY1230)) / (Number(FY1510) + Number(FY1530) + Number(FY1540) + Number(FY1550))).toFixed(2)}</StyledTableCell>
-              <StyledTableCell align="left">{((Number(SY1250) + Number(SY1240) + Number(SY1230)) / (Number(SY1510) + Number(SY1530) + Number(SY1540) + Number(SY1550))).toFixed(2)}</StyledTableCell>
-              <StyledTableCell align="left">{((Number(TY1250) + Number(TY1240) + Number(TY1230)) / (Number(TY1510) + Number(TY1530) + Number(TY1540) + Number(TY1550))).toFixed(2)}</StyledTableCell>
+            <StyledTableCell align="left">{'(c1250 + с1240 + c1230 ) / (c1510 + c1520 + c1540 + c1550)'}</StyledTableCell>
+              <StyledTableCell align="left">{((Number(FY1250) + Number(FY1240) + Number(FY1230)) / (Number(FY1510) + Number(FY1520) + Number(FY1540) + Number(FY1550))).toFixed(2)}</StyledTableCell>
+              <StyledTableCell align="left">{((Number(SY1250) + Number(SY1240) + Number(SY1230)) / (Number(SY1510) + Number(SY1520) + Number(SY1540) + Number(SY1550))).toFixed(2)}</StyledTableCell>
+              <StyledTableCell align="left">{((Number(TY1250) + Number(TY1240) + Number(TY1230)) / (Number(TY1510) + Number(TY1520) + Number(TY1540) + Number(TY1550))).toFixed(2)}</StyledTableCell>
           </StyledTableRow>
           <StyledTableRow key={'B3'}>
             <StyledTableCell component="th" scope="row">
             Коэф.текущей ликвидности
             </StyledTableCell>
-            <StyledTableCell align="left">{'c1200 / (c1510 + c1530 + c1540 + c1550)'}</StyledTableCell>
-              <StyledTableCell align="left">{((Number(FY1200)) / (Number(FY1510) + Number(FY1530) + Number(FY1540) + Number(FY1550))).toFixed(2)}</StyledTableCell>
-              <StyledTableCell align="left">{((Number(SY1200)) / (Number(SY1510) + Number(SY1530) + Number(SY1540) + Number(SY1550))).toFixed(2)}</StyledTableCell>
-              <StyledTableCell align="left">{((Number(TY1200)) / (Number(TY1510) + Number(TY1530) + Number(TY1540) + Number(TY1550))).toFixed(2)}</StyledTableCell>
+            <StyledTableCell align="left">{'c1200 / (c1510 + c1520 + c1540 + c1550)'}</StyledTableCell>
+              <StyledTableCell align="left">{((Number(FY1200)) / (Number(FY1510) + Number(FY1520) + Number(FY1540) + Number(FY1550))).toFixed(2)}</StyledTableCell>
+              <StyledTableCell align="left">{((Number(SY1200)) / (Number(SY1510) + Number(SY1520) + Number(SY1540) + Number(SY1550))).toFixed(2)}</StyledTableCell>
+              <StyledTableCell align="left">{((Number(TY1200)) / (Number(TY1510) + Number(TY1520) + Number(TY1540) + Number(TY1550))).toFixed(2)}</StyledTableCell>
           </StyledTableRow>
           <StyledTableRow key={'B4'}>
             <StyledTableCell component="th" scope="row">
             Коэф.маневренности функц.капитала
             </StyledTableCell>
-            <StyledTableCell align="left">{'(c1210 + c1220 + c1260) / (c1200 - (c1510 + c1530 + c1540 + c1550))'}</StyledTableCell>
-              <StyledTableCell align="left">{((Number(FY1210) + Number(FY1220) + Number(FY1260)) / (Number(FY1200) - (Number(FY1510) + Number(FY1530) + Number(FY1540) + Number(FY1550)))).toFixed(2)}</StyledTableCell>
-              <StyledTableCell align="left">{((Number(SY1210) + Number(SY1220) + Number(SY1260)) / (Number(SY1200) - (Number(SY1510) + Number(SY1530) + Number(SY1540) + Number(SY1550)))).toFixed(2)}</StyledTableCell>
-              <StyledTableCell align="left">{((Number(TY1210) + Number(TY1220) + Number(TY1260)) / (Number(TY1200) - (Number(TY1510) + Number(TY1530) + Number(TY1540) + Number(TY1550)))).toFixed(2)}</StyledTableCell>
+            <StyledTableCell align="left">{'(c1200 - c1500) / c1300)'}</StyledTableCell>
+              <StyledTableCell align="left">{((Number(FY1200) - Number(FY1500)) / Number(FY1300)).toFixed(2)}</StyledTableCell>
+              <StyledTableCell align="left">{((Number(SY1200) - Number(SY1500)) / Number(SY1300)).toFixed(2)}</StyledTableCell>
+              <StyledTableCell align="left">{((Number(TY1200) - Number(TY1500)) / Number(TY1300)).toFixed(2)}</StyledTableCell>
           </StyledTableRow>
           <StyledTableRow key={'B5'}>
             <StyledTableCell component="th" scope="row">
@@ -1315,16 +1315,16 @@ export default function CoreTable() {
             <StyledTableCell component="th" scope="row">
             Коэф.капитализации
             </StyledTableCell>
-            <StyledTableCell align="left">{'c1500 / c1300'}</StyledTableCell>
-              <StyledTableCell align="left">{(Number(FY1500) / Number(FY1300)).toFixed(2)}</StyledTableCell>
-              <StyledTableCell align="left">{(Number(SY1500) / Number(SY1300)).toFixed(2)}</StyledTableCell>
-              <StyledTableCell align="left">{(Number(TY1500) / Number(TY1300)).toFixed(2)}</StyledTableCell>
+            <StyledTableCell align="left">{'(c1400 + c1500) / c1300'}</StyledTableCell>
+              <StyledTableCell align="left">{((Number(FY1400) + Number(FY1500)) / Number(FY1300)).toFixed(2)}</StyledTableCell>
+              <StyledTableCell align="left">{((Number(SY1400) + Number(SY1500)) / Number(SY1300)).toFixed(2)}</StyledTableCell>
+              <StyledTableCell align="left">{((Number(TY1400) + Number(TY1500)) / Number(TY1300)).toFixed(2)}</StyledTableCell>
           </StyledTableRow>
           <StyledTableRow key={'E3'}>
             <StyledTableCell component="th" scope="row">
             Коэф.обеспеченности собствен.источниками финансирования
             </StyledTableCell>
-            <StyledTableCell align="left">{'(c1300 - 1100) / c1200'}</StyledTableCell>
+            <StyledTableCell align="left">{'(c1300 - c1100) / c1200'}</StyledTableCell>
               <StyledTableCell align="left">{((Number(FY1300) - Number(FY1100)) / Number(FY1200)).toFixed(2)}</StyledTableCell>
               <StyledTableCell align="left">{((Number(SY1300) - Number(SY1100)) / Number(SY1200)).toFixed(2)}</StyledTableCell>
               <StyledTableCell align="left">{((Number(TY1300) - Number(TY1100)) / Number(TY1200)).toFixed(2)}</StyledTableCell>
