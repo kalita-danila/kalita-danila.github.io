@@ -237,9 +237,9 @@ export default function CoreTable() {
   const [TY2100, setTY2100] = useState<any>('');
 
   useEffect(() => {
-    setFY2100(Number(FY2110) + Number(FY2120));
-    setSY2100(Number(SY2110) + Number(SY2120));
-    setTY2100(Number(TY2110) + Number(TY2120));
+    setFY2100(Number(FY2110) - Number(FY2120));
+    setSY2100(Number(SY2110) - Number(SY2120));
+    setTY2100(Number(TY2110) - Number(TY2120));
   }, [FY2110, FY2120, SY2110, SY2120, TY2110, TY2120]);
 
   const [FY2210, setFY2210] = useState(localStorage.getItem('FY2210') || '');
